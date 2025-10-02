@@ -36,8 +36,8 @@ The main outputs of the `flake.nix` at the moment are as follows:
 ## [ComfyUI](https://github.com/comfyanonymous/ComfyUI) ( A modular, node-based Stable Diffusion WebUI )
 
 (warning: this will give you an empty comfyui without custom_nodes or models, see [flake-modules/projects/comfyui/README.md](./flake-modules/projects/comfyui) for information on how to configure and use comfyui)
-- `nix run github:nixified-ai/flake/2aeb76f52f72c7a242f20e9bc47cfaa2ed65915d#invokeai-nvidia`
-- `nix run github:nixified-ai/flake/2aeb76f52f72c7a242f20e9bc47cfaa2ed65915d#invokeai-amd` (Broken due to lack of Nixpkgs ROCm support)
+- `nix run github:nixified-ai/flake/2aeb76f52f72c7a242f20e9bc47cfaa2ed65915d#comfyui-nvidia`
+- `nix run github:nixified-ai/flake/2aeb76f52f72c7a242f20e9bc47cfaa2ed65915d#comfyui-amd` (Broken due to lack of Nixpkgs ROCm support)
 
 ![ComfyUI Screenshot](https://github.com/user-attachments/assets/7ccaf2c1-9b72-41ae-9a89-5688c94b7abe)
 
